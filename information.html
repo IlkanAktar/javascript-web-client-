@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script> 
+    <title>Despia UHC Information</title>
+    <link rel="stylesheet" href="styles.css">
+<body>
+
+    <div class="header">
+        <div id="fondGaucheHeader"></div>
+      
+        <div id="fondDroiteHeader"></div>
+        
+        <div id="containerHeader">
+            <div class="titre elemHeader">
+                <script>
+
+                </script>
+                <a href="accueil.html" class="lienDiscret"><h1 id="Titre"> Despia UHC ! </h1></a>
+            </div>
+            
+            <div class="elemHeader centrage boite_recherche">
+                <form method="POST" action="rechercher.php" >
+                    <input type="text" name="text" class="saisieRecette" size="50" min="2" placeholder=" Rechercher une recette...">
+                    <!--<button type="submit" id="boutonLoupe"><img src="Images/loupe.png" id="loupe"></button>-->
+                </form>
+            </div>
+            
+
+            <div class="navbar">
+                <div class="navbar">
+            
+                    <a href="compte.html" class="iconenav centrage lien_icone">
+                        <img src="Images/compte.png" alt="image compte" class="image_icone">
+                        <p class="icone_texte">Compte</p>
+                    </a>
+
+                    <a href="boutique.html" class="iconenav centrage lien_icone">
+                        <img src="Images/livre.png" alt="image livre"  class="image_icone">
+                        <p class="icone_texte">Boutique</p>
+                    </a>
+                    
+                    <a href="information.html" class="iconenav centrage lien_icone need_help">
+                        <img src="Images/point_interrogation.png" alt="image points d'interofation"  class="image_icone">
+                        <p class="icone_texte">Besoin d'aide ?</p>
+                    </a>
+            
+                </div>
+            </div>
+        </div>
+    </div>	
+
+    <!-- la grille flexible (content) -->
+
+    <div class="row">
+        <div class="side">
+            <section>
+                <h2>Information</h2>
+                <ul>
+                    <li><strong>Adresse IP:</strong> panel.thedrewen.com</li>
+                    <li><strong>ports:</strong> 19056</li>
+                    <li><strong>Discord:</strong> <a href="https://discord.gg/36S9vjk2YH">Venez sur notre Discord!</a></li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Regles</h2>
+                <ol>
+                    <li>Interdiction de cheat ou exploit de tout type.</li>
+                    <li>Respecter le staff et tout nos joueurs.</li>
+                    <li>pas de pub ou spam.</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Regles</h2>
+                <ol>
+                    <li>Interdiction de cheat ou exploit de tout type.</li>
+                    <li>Respecter le staff et tout nos joueurs.</li>
+                    <li>pas de pub ou spam.</li>
+                </ol>
+            </section>
+        </div>
+        
+        <div class="main">
+            <section>
+                <h2>Nous contacter</h2>
+                <form class="contact-form" method="post" action="submit_form.php">
+                    <input type="text" name="name" placeholder="Pseudo" required>
+                    <input type="email" name="email" placeholder="Mail" required>
+                    <textarea name="message" placeholder="Votre Message" required></textarea>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+      </div>
+    </div>   
+            
+
+<footer>
+    <div id="containerFooter">
+        <div id ="footerText">
+            <p>&copy; 2022 Despia UHC Server. All rights reserved.</p>
+        </footerText>
+    </div>
+</footer>
+
+</body>
