@@ -216,6 +216,8 @@ h1{
 /* Sidebar */
 .side {
   flex: 300px;
+  flex-direction:column;
+  justify-content: space-evenly;
   background-color: #52A8B4;
   padding: 20px;
   border-right: solid #A3A3A3 4px;
